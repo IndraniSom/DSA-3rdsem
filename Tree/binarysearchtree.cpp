@@ -64,6 +64,24 @@ class BST{
         displaypreorder(root->lptr);
         displaypreorder(root->rptr);
     }
+    int smallestelement(Node *root){
+
+    }
+    int largestelement(Node *root){
+
+    }
+    int totalnumberofnodes(){
+
+    }
+    int totalnumberofexternalnodes(){
+
+    } 
+    int totalnumberofinternalnode(){
+
+    }
+    int height(){
+        
+    }
 };
 int main()
 {

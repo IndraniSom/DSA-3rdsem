@@ -35,7 +35,7 @@ class stack
     }
     void show(int* arr,int size){
         cout<<"The Stack elements are: "<<endl;
-        for(int i=0;i<=top;i++){
+        for(int i=top;i>=0;i--){
             cout<<arr[i]<<" ";
         }
     }

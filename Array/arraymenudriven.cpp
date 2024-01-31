@@ -5,7 +5,7 @@ void update(int* arr,int n,int x,int k){
     arr[k]=x;
 }
 void insert(int* arr,int size,int x,int pos){
-    if(pos>=0 || pos<size){
+    if(pos<0 || pos>size){
         cout<<"Invalid Position"<<endl;
     }
     else if(size>maxsize){
@@ -21,7 +21,7 @@ void insert(int* arr,int size,int x,int pos){
     }
 }
 void remove (int* arr,int size,int pos){
-     if(pos>=0 || pos<size){
+     if(pos<0 || pos>size){
         cout<<"Invalid Position"<<endl;
     }
     for(int i=pos-1;i<=size-1;i++){
